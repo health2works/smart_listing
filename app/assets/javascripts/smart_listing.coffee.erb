@@ -334,6 +334,7 @@ $.fn.smart_listing.showPopover = (elem, body) ->
   elem.popover("show")
 
 $.fn.smart_listing.showConfirmation = (confirmation_elem, msg, confirm_callback) ->
+  #Had to put this comment in here to make pop ups work again in Bootstrap 4.5 ... go figure!
   buildPopover = (confirmation_elem, msg) ->
     deletion_popover = $("<div/>").addClass("confirmation_box")
     deletion_popover.append($("<p/>").html(msg))
