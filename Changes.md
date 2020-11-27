@@ -1,11 +1,3 @@
-1.2.2.2
------------
-- Fix smart listing popups in Bootstrap 4.5
-
-1.2.2.1
------------
-- Remove troublesome line
-
 1.2.2
 -----------
 
