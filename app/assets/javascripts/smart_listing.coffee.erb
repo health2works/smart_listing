@@ -334,6 +334,8 @@ $.fn.smart_listing.showPopover = (elem, body) ->
   elem.popover('show')
 
 $.fn.smart_listing.showConfirmation = (confirmation_elem, msg, confirm_callback) ->
+  #wondering if we have to do some random bit of js to initialise the popover?
+  console.log("smart_listing")
   buildPopover = (confirmation_elem, msg) ->
     deletion_popover = $("<div/>").addClass("confirmation_box")
     deletion_popover.append($("<p/>").html(msg))
