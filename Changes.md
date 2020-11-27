@@ -1,3 +1,13 @@
+1.2.2.2
+-----------
+
+- Fix Bootstrap 4 pop ups
+
+1.2.2.1
+-----------
+
+- Remove troublesome line
+
 1.2.2
 -----------
 
